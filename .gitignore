@@ -28,4 +28,4 @@ replit.nix
 package-lock.json
 .config
 .upm
-logs
+# logs

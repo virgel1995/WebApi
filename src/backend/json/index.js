@@ -1,8 +1,8 @@
 const express = require("express"); 
 const router = express.Router();
-const hug = require("@images/hug.json")
+const hug = require("@root/src/json/hug.json")
 
-const kill = require("@images/kill.json")
+const kill = require("@root/src/json/kill.json")
 
 
 

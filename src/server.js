@@ -16,7 +16,7 @@ const appPath = path.join(__dirname, "../dist", manifest["app.js"]);
 const App = require(appPath).default;
 
 const jsonRoutes = require("./backend/json")
-const discordVirus24Routes = require("./backend/packages/diacordVirus24")
+const discordVirus24Routes = require("./backend/packages/discordVirus24")
 	const authRoutes = require("./backend/auth")
 
 

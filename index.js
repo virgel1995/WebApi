@@ -11,7 +11,7 @@ client.config = config;
 (async () => {
 
 await initializeMongoose();
-
+//mv ./avatar.jpg ./src/assets/
 
 await launch(client); 
 	
