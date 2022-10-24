@@ -1,0 +1,82 @@
+{
+  "name": "NewstepApi",
+  "version": "0.0.0-beta",
+  "description": "just new api for images ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "ssr": "node ./index.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "pressr": "cross-env SSR=true vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "keywords": [
+    "api",
+    "discord"
+  ],
+  "author": "virgel",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fixedsize-map": "^1.0.1",
+    "helmet": "^6.0.0",
+    "mongoose": "^6.5.0",
+    "pino": "^8.3.1",
+    "pino-pretty": "^8.1.0",
+    "pretty-ms": "^7.0.1",
+    "@vue/server-renderer": "^3.0.0-rc.5",
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0-0",
+    "webpack-manifest-plugin": "^2.2.0",
+    "webpack-node-externals": "^2.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "discord-virus24": "^1.0.4",
+    "discord.js": "^14.6.0",
+    "module-alias": "^2.2.2",
+    "nodemon": "^2.0.20"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_moduleAliases": {
+    "@root": ".",
+    "@helpers": "src/helpers/",
+    "@assets": "assets/",
+    "@public": "public/",
+    "@images": "images/",
+    "@schemas": "src/database/schemas/"
+  }
+}
