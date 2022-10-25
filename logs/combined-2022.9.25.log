@@ -1,0 +1,4 @@
+{"level":30,"time":1666656439302,"pid":891,"hostname":"d1dd5fb5b4d8","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1666656440416,"pid":891,"hostname":"d1dd5fb5b4d8","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1666656562439,"pid":1183,"hostname":"d1dd5fb5b4d8","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1666656563989,"pid":1183,"hostname":"d1dd5fb5b4d8","msg":"Mongoose: Database connection established"}
