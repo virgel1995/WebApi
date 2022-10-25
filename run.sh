@@ -7,13 +7,13 @@ git config --global user.email "kazouya44@gmail.com"
 git config --global user.name "virgel1995"
 #Ask for Username
 echo "Enter your GitHub username: "
-read username
-echo username
+#read username
+echo "virgel1995"
 
 #Ask for User Github's personal access token
 echo "Enter your GitHub personal access token: "
 read token
-echo token
+echo "$token"
 
 
 echo "Enter commit message"

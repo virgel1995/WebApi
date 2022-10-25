@@ -9,7 +9,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "pressr": "cross-env SSR=true vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+		"git": "bash run.sh"
   },
   "engines": {
     "node": ">=16.9.0"
